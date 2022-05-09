@@ -11,4 +11,5 @@ aftersuccess:
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_4c5089d44db5_key -iv $encrypted_4c5089d44db5_iv
+- echo -e "Host 138.68.189.32\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   -in travis_deploy.enc -out ./travis_deploy -d

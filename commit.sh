@@ -1,3 +1,3 @@
 git add .
 git commit -m "encrypting"
-git push
+git push origin main
